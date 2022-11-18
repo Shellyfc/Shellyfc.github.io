@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chu Fang"
+title                    : "About Chu"
 title_separator          : "-"
 name                     : &name "Chu Fang"
 description              : &description "personal description"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : chufang@usc.edu
+  email            : "chufang@usc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/chu-fang-3670b6184/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "chu-fang-3670b6184"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
