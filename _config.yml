@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About Chu"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Chu Fang"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chu Fang"
   avatar           : "profile.jpeg"
-  bio              : "A Senior CS games student at USC"
+  bio              : "Foodie; Gamer; Developer; Researcher"
   location         : "LA, CA"
   employer         :
   pubmed           : 
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "https://steamcommunity.com/id/shellyfc/"
+  steam            : "shellyfc"
   tumblr           :
   twitter          : 
   vine             :
@@ -175,19 +175,12 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
-  publications:
+  projects:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
