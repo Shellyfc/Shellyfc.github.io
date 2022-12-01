@@ -11,32 +11,26 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science (Games), University of Southern California, 2021 - 2023 (expected)
+* B.S. in Computer Science & Mathematical Sciences, University of California, Santa Barbara, 2018 - 2020 (transfered to USC)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Quality Assurance Engineering | ByteDance Ltd., Hangzhou,China, 01/2021 - 0707/2021                                                                                                          
+  * Led quality assurance plan for an Istio-like product, designed and performed load, stress, stability, and reliability testing.
+  * Accomplished 7 test services injected with sidecars with complicated calls among them as well as long and looped trace using Java and Docker, and deployed them with Kubernetes to test the protocol trace functionality of the product.
+  * Implemented testing CI/CD which automatically generated visual test reports from 100+ test cases on a daily, weekly, and monthly basis in order to better monitor stability, identify weaknesses, and evaluate performance on a scheduled basis.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Java Web Developer | Hangzhou Jihe Network Technology Co., Ltd., Hangzhou, China, 06/2020 - 12/2020                
+  * Developed CRUD features, including management of store, employee, dish, table, and bill, with the Spring Cloud Alibaba and MyBatis Plus frameworks.
+  * Synchronized dish information to Elasticsearch to enable fuzzy inquiries and saved the dish pictures to Object Storage Service on the cloud by only keeping the keys in MySQL to increase data stability, safety, and fast access.
+  * Accomplished sending asynchronous Short Message Service (SMS) verification codes with RabbitMQ to decouple SMS features from other requests to prevent blocking.
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
+* Technical Skills: Python, C/C++, Go, SQL, Flask, HuggingFace, Vue.js, Docker, Istio, K8s, RabbitMQ, Unity3D, Unreal5
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -56,4 +50,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
