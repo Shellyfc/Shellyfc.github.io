@@ -11,12 +11,14 @@ redirect_from:
 
 Education
 ======
+
 * B.S. in Computer Science (Games), University of Southern California, 2021 - 2023 (expected)
 * B.S. in Computer Science & Mathematical Sciences, University of California, Santa Barbara, 2018 - 2020 (transfered to USC)
 
 Work experience
 ======
-* Quality Assurance Engineering | ByteDance Ltd., Hangzhou,China, 01/2021 - 0707/2021                                                                                                          
+
+* Quality Assurance Engineering | ByteDance Ltd., Hangzhou,China, 01/2021 - 07/2021                                                                                                          
   * Led quality assurance plan for an Istio-like product, designed and performed load, stress, stability, and reliability testing.
   * Accomplished 7 test services injected with sidecars with complicated calls among them as well as long and looped trace using Java and Docker, and deployed them with Kubernetes to test the protocol trace functionality of the product.
   * Implemented testing CI/CD which automatically generated visual test reports from 100+ test cases on a daily, weekly, and monthly basis in order to better monitor stability, identify weaknesses, and evaluate performance on a scheduled basis.
@@ -30,6 +32,8 @@ Work experience
 Skills
 ======
 * Technical Skills: Python, C/C++, Go, SQL, Flask, HuggingFace, Vue.js, Docker, Istio, K8s, RabbitMQ, Unity3D, Unreal5
+
+
 <!-- Publications
 ======
   <ul>{% for post in site.publications %}
@@ -47,7 +51,4 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+-->
