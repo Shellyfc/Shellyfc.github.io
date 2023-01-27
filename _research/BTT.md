@@ -5,7 +5,8 @@ type: "Break Through Tech AI @UCLA"
 permalink: /research/btt
 venue: "UCLA"
 location: "LA, U.S."
-date: 2022-9 ~ 2022-12
+date: 2022-12
+duration: 06/2022 - 12/2022
 ---
 
 * Collaborated with the Polish company Netguru and designed an information retrieval system to perform question answering and named entity recognition abilities based on the context of the questions by querying Wikipedia API.
