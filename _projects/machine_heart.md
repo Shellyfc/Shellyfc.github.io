@@ -6,7 +6,7 @@ permalink: /project/machine_heart
 venue: "University of Southern California"
 location: "City, Country"
 excerpt: "2D, Sci-fi, Narrative game made with Unity3D<br/><img src='/images/machineheart.png'>"
-date: 2022-08-01
+duration: 09/2022 - Present
 ---
 2D, Sci-fi, Narrative game made with Unity3D
 

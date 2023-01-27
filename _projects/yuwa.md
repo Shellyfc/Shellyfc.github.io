@@ -6,7 +6,7 @@ permalink: /project/yuwa
 venue: "University of Southern California"
 location: "City, Country"
 excerpt: "2D, Roguelike, Boss-fighting game made with Unity3D<br/><img src='/images/yuwa.jpg'>"
-date: 2022-02-01
+duration: 02/2022 - 05/2022
 ---
 2D, Roguelike, Boss-fighting game made with Unity3D
 

@@ -4,7 +4,7 @@ collection: research
 type: "GLAMOR Lab"
 permalink: /research/glamor
 venue: "University of Southern California"
-location: "City, Country"
+location: "LA, U.S."
 duration: 09/2022 - Present
 ---
 
