@@ -5,7 +5,6 @@ type: "Break Through Tech AI @UCLA"
 permalink: /research/btt
 venue: "UCLA"
 location: "LA, U.S."
-date: 2022-12
 duration: 06/2022 - 12/2022
 ---
 
