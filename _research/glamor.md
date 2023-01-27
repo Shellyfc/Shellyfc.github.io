@@ -1,5 +1,5 @@
 ---
-title: "Adversarial Analogy problem"
+title: "NLP: Adversarial Analogy problem"
 collection: research
 type: "GLAMOR Lab"
 permalink: /research/glamor

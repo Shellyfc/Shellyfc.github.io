@@ -1,5 +1,5 @@
 ---
-title: "Information Retrieval System with Named Entity Recognition (NER) and Question Answering (QA)"
+title: "NLP: Information Retrieval System with Named Entity Recognition (NER) and Question Answering (QA)"
 collection: research
 type: "Break Through Tech AI @UCLA"
 permalink: /research/btt

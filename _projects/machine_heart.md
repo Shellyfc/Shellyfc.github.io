@@ -1,5 +1,5 @@
 ---
-title: "Machine Heart"
+title: "Game: Machine Heart"
 collection: projects
 type: "2D Game"
 permalink: /project/machine_heart

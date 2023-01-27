@@ -1,5 +1,5 @@
 ---
-title: "Yuwa's way out"
+title: "Game: Yuwa's way out"
 collection: projects
 type: "2D Game"
 permalink: /project/yuwa
