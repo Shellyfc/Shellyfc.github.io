@@ -27,7 +27,7 @@ author_profile: true
         </div>
         <p class="game-summary">{{ post.excerpt | strip_html }}</p>
         <div class="game-actions">
-          <a class="btn btn--light-outline" href="{{ post.url | relative_url }}">Case Study</a>
+          <a class="btn btn--light-outline" href="{{ post.url | relative_url }}">View game</a>
           {% if post.play_url %}
             <a class="btn hero-btn" href="{{ post.play_url }}" target="_blank" rel="noopener">Play</a>
           {% endif %}
