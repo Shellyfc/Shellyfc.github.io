@@ -48,22 +48,6 @@ redirect_from:
 </section>
 
 <section class="section-clean" data-reveal>
-  <h2>Background</h2>
-  <p>I hold an M.Eng. in EECS from UC Berkeley and a B.S. in Computer Science (Games) from USC. My work spans support tooling, platform migrations, and data-informed product improvements.</p>
-</section>
-
-<section class="section-clean" data-reveal>
-  <h2>Current Interests</h2>
-  <div class="chip-row">
-    <span class="chip">Human-centered AI</span>
-    <span class="chip">Trust &amp; Safety</span>
-    <span class="chip">Forecasting systems</span>
-    <span class="chip">Interactive tooling</span>
-    <span class="chip">Product experimentation</span>
-  </div>
-</section>
-
-<section class="section-clean" data-reveal>
   <h2>Photo Gallery</h2>
   <div class="gallery-grid">
     <figure class="photo-card">

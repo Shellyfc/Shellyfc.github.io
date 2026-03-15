@@ -5,8 +5,11 @@ type: "2D Game"
 permalink: /project/yuwa
 venue: "University of Southern California"
 location: "City, Country"
-excerpt: "2D, Roguelike, Boss-fighting game made with Unity3D<br/><img src='/images/yuwa.jpg'>"
+excerpt: "The game is about a girl who is trying to run away from her home and fights her mother twice on her way. Eventually, she has to defeat the grown-up version of Yuwa in order to escape from her life."
 duration: 02/2022 - 05/2022
+play_url: "https://richzhu.itch.io/yuwa"
+header:
+  teaser: "yuwa.jpg"
 ---
 2D, Roguelike, Boss-fighting game made with Unity3D
 

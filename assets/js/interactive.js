@@ -72,4 +72,38 @@
       button.style.removeProperty("transform");
     });
   });
+
+  const filterGroups = document.querySelectorAll("[data-ml-filters]");
+  filterGroups.forEach((group) => {
+    const buttons = Array.from(group.querySelectorAll("[data-filter]"));
+    const cards = Array.from(group.querySelectorAll("[data-category]"));
+    if (!buttons.length || !cards.length) return;
+
+    let activeFilter = buttons.find((btn) => btn.classList.contains("is-active"))?.dataset.filter;
+    if (!activeFilter) activeFilter = buttons[0].dataset.filter;
+
+    const applyFilters = () => {
+      cards.forEach((card) => {
+        const category = card.dataset.category;
+        const isVisible = category === activeFilter;
+        card.classList.toggle("ml-filter-hidden", !isVisible);
+      });
+    };
+
+    const setActive = (filter) => {
+      activeFilter = filter;
+      buttons.forEach((btn) => {
+        const isActive = btn.dataset.filter === filter;
+        btn.classList.toggle("is-active", isActive);
+        btn.setAttribute("aria-selected", isActive ? "true" : "false");
+      });
+      applyFilters();
+    };
+
+    setActive(activeFilter);
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => setActive(btn.dataset.filter));
+    });
+  });
 })();

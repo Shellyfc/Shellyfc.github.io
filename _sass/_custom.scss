@@ -265,6 +265,116 @@ a {
   gap: 1.2rem;
 }
 
+.ml-tabs {
+  margin-top: 1rem;
+}
+
+.ml-tab-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.ml-tab-btn {
+  border: 1px solid rgba(124, 214, 200, 0.3);
+  background: rgba(124, 214, 200, 0.12);
+  color: var(--ui-ink);
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.ml-tab-btn.is-active {
+  border-color: rgba(124, 214, 200, 0.8);
+  background: rgba(124, 214, 200, 0.28);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45), inset 0 0 0 1px rgba(124, 214, 200, 0.35);
+  transform: translateY(-1px);
+}
+
+.ml-filter-hidden {
+  display: none;
+}
+
+.games-hero {
+  margin: 1rem 0 2rem;
+}
+
+.games-intro {
+  color: var(--ui-muted);
+  max-width: 44rem;
+}
+
+.games-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.game-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.2rem;
+  border-radius: 22px;
+  border: 1px solid rgba(237, 241, 239, 0.12);
+  background: var(--ui-surface-2);
+  padding: 1.4rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124, 214, 200, 0.35);
+  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.4);
+}
+
+.game-cover img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid rgba(237, 241, 239, 0.12);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.game-title {
+  margin: 0 0 0.4rem;
+}
+
+.game-title a {
+  color: var(--ui-ink);
+  text-decoration: none;
+}
+
+.game-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.meta-chip {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(124, 214, 200, 0.2);
+  background: rgba(124, 214, 200, 0.12);
+  color: var(--ui-ink);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.game-summary {
+  color: var(--ui-muted);
+  margin-bottom: 1rem;
+}
+
+.game-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
 .photo-card {
   margin: 0;
   border-radius: 20px;
@@ -321,6 +431,14 @@ a {
 
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .games-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .game-card {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
