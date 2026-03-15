@@ -20,6 +20,7 @@ a {
 
 #main {
   margin-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .archive {
@@ -102,6 +103,11 @@ a {
 .page__content {
   max-width: none;
   width: 100%;
+  padding-bottom: 2rem;
+}
+
+.page__inner-wrap {
+  padding-bottom: 2rem;
 }
 
 .page__footer {
@@ -121,12 +127,29 @@ a {
   width: 100%;
 }
 
+.hero-clean::before {
+  content: "";
+  position: absolute;
+  inset: -40% -20%;
+  background: radial-gradient(circle at 20% 20%, rgba(124, 214, 200, 0.22), transparent 45%),
+    radial-gradient(circle at 80% 20%, rgba(242, 163, 122, 0.2), transparent 40%),
+    radial-gradient(circle at 40% 80%, rgba(124, 214, 200, 0.18), transparent 45%);
+  opacity: 0.6;
+  filter: blur(10px);
+  animation: meshFloat 16s ease-in-out infinite;
+  pointer-events: none;
+}
+
 .hero-inner {
   position: relative;
   display: grid;
   gap: 2rem;
   align-items: start;
   z-index: 1;
+}
+
+.hero-main {
+  grid-column: 1 / 2;
 }
 
 .hero-kicker {
@@ -172,7 +195,10 @@ a {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(10px);
   width: 100%;
+  max-width: none;
+  justify-self: stretch;
 }
+
 
 .now-title {
   font-weight: 700;
@@ -282,7 +308,11 @@ a {
   }
 
   .hero-inner {
-    grid-template-columns: minmax(0, 1.8fr) minmax(0, 1.1fr);
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .now-card {
+    max-width: none;
   }
 
   .focus-grid {
@@ -298,17 +328,19 @@ a {
   display: grid;
   gap: 1.25rem;
   margin: 1.5rem 0 2.5rem;
+  width: 100%;
 }
 
 .timeline-card {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 18px;
   border: 1px solid var(--ui-border);
   background: linear-gradient(140deg, var(--ui-surface), var(--ui-surface-2));
   padding: 1.4rem 1.6rem 1.6rem;
   box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  width: 100%;
 }
 
 .timeline-card::before {
@@ -432,6 +464,20 @@ a {
 [data-reveal].is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.tilt-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+@keyframes meshFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2%, -2%, 0) scale(1.02);
+  }
 }
 
 @media (min-width: 900px) {

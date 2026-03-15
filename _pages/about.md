@@ -9,7 +9,7 @@ redirect_from:
 ---
 <section class="hero-clean" data-reveal>
   <div class="hero-inner">
-    <div>
+    <div class="hero-main">
       <p class="hero-kicker">Shelly Fang</p>
       <h1 class="hero-title">Software engineer crafting reliable systems and human-centered experiences.</h1>
       <p class="hero-subtitle">Full-stack and machine learning work focused on clarity, safety, and measurable impact.</p>
@@ -23,7 +23,7 @@ redirect_from:
       <div class="now-title">Now</div>
       <div class="now-line">Building support experiences at Meta.</div>
       <div class="now-line">Exploring trustworthy AI and product experimentation.</div>
-      <div class="now-line">Based in Los Angeles and the Bay Area.</div>
+      <div class="now-line">Based in the Bay Area.</div>
     </aside>
   </div>
   <div class="hero-mesh" aria-hidden="true"></div>
