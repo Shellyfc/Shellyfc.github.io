@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About"
+title                    : "Shelly Fang"
 title_separator          : "-"
-name                     : &name "Chu Fang"
+name                     : &name "Shelly Fang"
 description              : &description "personal description"
 url                      : https://Shellyfc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chu Fang"
-  avatar           : "profile.jpeg"
+  name             : "Shelly Fang"
+  avatar           : "profile.jpg"
   bio              : "Foodie; Gamer; Developer; Researcher"
-  location         : "LA, CA"
+  location         : "Fremont, CA"
   employer         :
   pubmed           : 
   googlescholar    : 

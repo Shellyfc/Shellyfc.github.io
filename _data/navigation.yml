@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Research"
+  - title: "Machine Learning"
     url: /research/
 
-  - title: "Projects"
+  - title: "Games"
     url: /projects/    
     
-  - title: "CV"
+  - title: "Experiences"
     url: /cv/

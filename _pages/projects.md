@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /projects/
-title: "Projects"
+title: "Games"
 author_profile: true
 ---
 {% include base_path %}
