@@ -66,7 +66,7 @@ redirect_from:
         <div class="card-subtitle">Meta (Facebook) | FB Trust &amp; Safety: Empowerment</div>
         <div class="card-stack">Hack, React, GraphQL, SQL</div>
       </div>
-      <div class="card-dates">Jun 2023 - Present</div>
+    <div class="card-dates">Jun 2024 - Present</div>
     </div>
     <ul>
       <li>Spearheaded end-to-end development and launch of AI-powered support experiences, driving measurable improvements in user comprehension, engagement, and task completion; achieved a 72% positive feedback rate in in-product surveys.</li>
